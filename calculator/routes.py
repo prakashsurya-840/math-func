@@ -1,0 +1,11 @@
+def includeme(config):
+	config.add_static_view('static', 'static', cache_max_age=3600)
+	config.add_route('home', '/')
+	config.add_route('add','/add')
+	config.add_route('sub','/sub')
+	config.add_route('mul','/mul')
+	config.add_route('div','/div')
+	config.add_route('result','/result')
+	config.add_route('result1','/result1')
+	config.add_route('result2','/result2')
+	config.add_route('result3','/result3')

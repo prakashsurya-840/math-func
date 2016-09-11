@@ -1,0 +1,15 @@
+{% extends 'layout.jinja2' %}
+{% block content %}
+<form action="/result2" method="post" color='white'>
+<table bgcolor="white">
+<tr>
+<td><p>Number 1: <input type="text" name="number5"></p></td>
+<td><p>Number 2: <input type="text" name="number6"></p></td>
+</tr>
+<tr>
+<td><button type="submit" name="mul" value="mul" >Multiply</button></p></td>
+</tr>
+</table>
+</form>
+<p><centre><a class="button" href="{{request.route_url('home')}}">Home</a></centre></p>
+{% endblock content %}

@@ -1,0 +1,8 @@
+{% extends 'layout.jinja2' %}
+{% block content %}
+<h1>Mathematical Functions</h1>
+<a class="button" href="{{request.route_url('add')}}">Addition</a>
+<a class="button" href="{{request.route_url('sub')}}">Subraction</a>
+<a class="button" href="{{request.route_url('mul')}}">Multiplication</a>
+<a class="button" href="{{request.route_url('div')}}">Division</a>
+{% endblock content %}
