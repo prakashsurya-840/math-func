@@ -1,12 +1,12 @@
 # math-func
-A simple web application created using Pyramid web framework that can perform basic mathematical functions.
-Users can add their desired functions to the application.
+<p>A simple web application created using Pyramid web framework that can perform basic mathematical functions.
+Users can add their desired functions to the application.</p>
 
-This application is created from 'starter' scaffold provided by Pyramid.
+<p>This application is created from 'starter' scaffold provided by Pyramid.</p>
 
-To run this applcation:
-    *Create a sample application on Pyramid
-    *Copy the 'calculator' directory into the current working directory
-    *Run the application using terminal
+<p>To run this applcation:
+<ul><li> Create a sample application on Pyramid
+    <li> Copy the 'calculator' directory into the current working directory
+    <li> Run the application using terminal</ul></p>
 
-Template from: http://www.Styleshout.com
+<p>Template from: http://www.Styleshout.com</p>
